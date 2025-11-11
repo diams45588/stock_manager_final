@@ -22,4 +22,3 @@ Les tests s'exécutent automatiquement sur GitHub Actions à chaque push.
 pip install -r requirements.txt
 python init.py
 python -m unittest discover tests -v
-pytest -v
