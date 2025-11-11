@@ -16,3 +16,6 @@ class StockManagerTest(unittest.TestCase):
         sm.ajouter_produit(Produit("Stylo", 1000, 2))
         sm.ajouter_produit(Produit("Crayon", 500, 4))
         self.assertEqual(1000*2 + 500*4, sm.total_stock())
+
+if __name__ == '__main__':
+    unittest.main()
