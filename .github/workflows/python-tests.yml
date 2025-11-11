@@ -55,6 +55,4 @@ jobs:
       run: |
         python -m unittest discover tests -v
     
-    - name: Run tests with pytest
-      run: |
-        pytest -v
+    
